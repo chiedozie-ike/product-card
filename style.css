@@ -14,3 +14,29 @@ img {
   width: 100%;
   object-fit: contain;
 }
+
+.container {
+  max-width: 350px;
+  height: 450px;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: #ecfdf5;
+}
+
+.card {
+  max-width: 100%;
+  height: 100%;
+}
+
+.card > h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card > p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+}
